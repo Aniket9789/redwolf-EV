@@ -822,6 +822,11 @@ html {
     width: 100%;
   }
 
+  #ourbanner{
+    position: relative;
+    top: 15rem;
+  }
+
   .parent {
     margin-top: -15rem;
   }
