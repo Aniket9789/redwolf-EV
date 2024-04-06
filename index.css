@@ -112,7 +112,7 @@ h1 {
 .ci img {
   -moz-user-select: none;
   user-select: none;
-  width: 106rem;
+  width: 90rem;
 }
 
 .ch {
@@ -479,8 +479,7 @@ html {
 
 .slider {
   display: flex;
-  width: 105rem;
-
+  width: 100%;
 }
 
 .slide {
@@ -519,7 +518,7 @@ html {
 
 .f_txt {
   font-size: 4rem;
-  margin-left: 7rem;
+  margin-left: 17rem;
   margin-top: -9rem;
   color: #ee2e11d6;
 
@@ -677,6 +676,7 @@ html {
   height: 23rem;
   left: 14rem;
   position: relative;
+  border-radius: 1rem;
 }
 
 .evbanner2 {
@@ -685,6 +685,7 @@ html {
   left: 17rem;
   position: relative;
   top: -3rem;
+  border-radius: 1rem;
 
 }
 
@@ -694,6 +695,7 @@ html {
   left: 21rem;
   position: relative;
   top: -2rem;
+  border-radius: 1rem;
 }
 
 .ev {
@@ -704,10 +706,7 @@ html {
   top: -7rem;
 }
 
-/* .Unleashing {
-  margin-left: 27rem;
-  font-size: 1.8rem;
-} */
+
 
 /* responsive banner2 */
 @media screen and (max-width: 500px) {
@@ -715,14 +714,11 @@ html {
     /* padding: 10px; */
     display: flex;
     color: white;
-    /* justify-content: space-between; */
-    /* text-align: center; */
-    /* align-items: center; */
     position: relative;
     left: -11rem;
     width: 21rem;
     flex-direction: column;
-    top: -20rem;
+    top: -5rem;
   }
 
   .evbackground {
@@ -780,8 +776,8 @@ html {
   }
 
   .reviews {
-    margin-top: -52rem;
-    overflow: hidden;
+    position: relative;
+    top: -22rem;
 
   }
 
@@ -829,7 +825,7 @@ html {
   }
 
   .footer {
-    margin-top: -6rem;
+    margin-top: -20rem;
   }
 
   #value2 {
@@ -858,8 +854,27 @@ html {
     /* margin-left: 27rem; */
     font-size: 1.8rem;
   }
+
+  .ci img {
+    -moz-user-select: none;
+    user-select: none;
+    width: 100%;
+  }
+
+  .parent {
+    margin-top: -15rem;
+  }
+
+  .banner2 {
+    position: relative;
+    top: -15rem;
+  }
 }
 
+.Unleashing {
+  font-size: 40px;
+  margin-left: 20rem;
+}
 
 /* responsive navigation bar */
 
@@ -1004,9 +1019,10 @@ html {
   }
 
   .p_txt {
-    text-align: justify;
+    text-align: center;
     font-size: 20px;
-    margin-left: 7rem;
+    width: 14rem;
+    margin-left: 18rem;
   }
 
   #finance1 {
@@ -1029,22 +1045,25 @@ html {
 
   #finance2 {
     position: relative;
-    top: 21rem;
+    top: 20rem;
     left: 1rem;
+    font-size: 40px;
   }
 
   #financepara2 {
     text-align: start;
     position: relative;
-    left: 1rem;
+    left: 2rem;
     max-width: 20rem;
+    top: 15rem;
   }
 
   #finance3 {
     position: relative;
     left: 1rem;
-    font-size: 2rem;
-    top: 21rem;
+    font-size: 24px;
+    top: 19rem;
+
   }
 
   #financepara3 {
@@ -1052,13 +1071,14 @@ html {
     position: relative;
     left: 1rem;
     max-width: 19rem;
-    top: 16rem;
+    top: 13rem;
   }
 
   #finance4 {
     position: relative;
     top: 20rem;
     left: 2rem;
+    font-size: 40px;
 
   }
 
@@ -1066,7 +1086,12 @@ html {
     text-align: start;
     position: relative;
     left: 1rem;
-    top: 16rem;
+    top: 12srem;
+  }
+
+  .slider {
+    display: flex;
+    width: 100%;
   }
 
 }
