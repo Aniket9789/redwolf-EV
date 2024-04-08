@@ -680,7 +680,7 @@ html {
     left: -11rem;
     width: 21rem;
     flex-direction: column;
-    top: -5rem;
+    top: 1rem;
   }
 
   .evbackground {
@@ -731,18 +731,17 @@ html {
     color: #ddd;
     position: relative;
     left: 8rem;
-    top: -30.5rem;
+    top: -28.5rem;
     font-size: 23px;
   }
 
   .reviews {
     position: relative;
     top: -7rem;
-
   }
 
   .insidebanner2 {
-    height: 40rem;
+    height: 30rem;
     width: 100%;
   }
 
@@ -751,7 +750,7 @@ html {
     flex-direction: column;
     color: white;
     position: relative;
-    top: -18rem;
+    top: -13rem;
     right: 9rem;
 
   }
