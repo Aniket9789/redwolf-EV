@@ -471,7 +471,7 @@ html {
 }
 
 .slide img {
-  height: 30rem;
+  height: 34rem;
   width: 100%;
 }
 
@@ -631,7 +631,7 @@ html {
   align-items: center;
   flex-direction: row;
   position: relative;
-  top: -24rem;
+  top: -27rem;
 }
 
 .evbanner1 {
@@ -685,7 +685,7 @@ html {
 
   .evbackground {
     width: 100%;
-    height: 109%;
+    height: 90%;
   }
 
   .innerinnerside {
@@ -694,7 +694,7 @@ html {
     justify-content: space-around;
     align-items: center;
     position: relative;
-    bottom: 27rem;
+    bottom: 1rem;
     right: 14rem;
   }
 
@@ -730,13 +730,14 @@ html {
   .ev {
     color: #ddd;
     position: relative;
-    left: 12rem;
-    top: -48.5rem;
+    left: 8rem;
+    top: -30.5rem;
+    font-size: 23px;
   }
 
   .reviews {
     position: relative;
-    top: -22rem;
+    top: -7rem;
 
   }
 
@@ -784,7 +785,7 @@ html {
   }
 
   .footer {
-    margin-top: -20rem;
+    margin-top: -10rem;
   }
 
   #value2 {
@@ -833,7 +834,7 @@ html {
 
   .banner2 {
     position: relative;
-    top: -15rem;
+    top: -2rem;
   }
 
   #vehicel {
@@ -850,6 +851,18 @@ html {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+  }
+
+  .f_txt {
+    font-size: 25px;
+    margin-left: 5rem;
+    margin-top: -4rem;
+    color: #ee2e11d6;
+  }
+
+  .slide img {
+    height: 13rem;
+    width: 100%;
   }
 }
 
@@ -1002,8 +1015,8 @@ html {
 
   .p_txt {
     text-align: center;
-    font-size: 20px;
-    width: 14rem;
+    font-size: 12px;
+    width: 17rem;
     margin-left: 18rem;
   }
 
