@@ -471,7 +471,7 @@ html {
 }
 
 .slide img {
-  height: 45rem;
+  height: 30rem;
   width: 100%;
 }
 
@@ -822,7 +822,7 @@ html {
     width: 100%;
   }
 
-  #ourbanner{
+  #ourbanner {
     position: relative;
     top: 15rem;
   }
@@ -841,6 +841,15 @@ html {
     position: relative;
     top: 6rem;
     left: -2rem;
+  }
+
+  .text-container {
+    position: absolute;
+    top: 68%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
   }
 }
 
