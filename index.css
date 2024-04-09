@@ -820,6 +820,7 @@ html {
 
   .ci img {
     width: 100%;
+    height: 50%;
   }
 
   #ourbanner {
@@ -1024,8 +1025,8 @@ html {
   #finance1 {
     position: relative;
     left: 2rem;
-    font-size: 39px;
-    top: 16rem;
+    font-size: 19px;
+    top: 18rem;
     text-align: justify;
   }
 
@@ -1037,27 +1038,30 @@ html {
     position: relative;
     left: 2rem;
     max-width: 20rem;
+    font-size: 12px !important;
+    top: 10rem;
   }
 
   #finance2 {
     position: relative;
     top: 20rem;
-    left: 1rem;
-    font-size: 40px;
+    left: 2rem;
+    font-size: 19px;
   }
 
   #financepara2 {
     text-align: start;
     position: relative;
     left: 2rem;
-    max-width: 20rem;
-    top: 15rem;
+    max-width: 12rem;
+    top: 14rem;
+    font-size: 12px !important;
   }
 
   #finance3 {
     position: relative;
     left: 1rem;
-    font-size: 24px;
+    font-size: 19px;
     top: 19rem;
 
   }
@@ -1065,9 +1069,10 @@ html {
   #financepara3 {
     text-align: start;
     position: relative;
-    left: 1rem;
-    max-width: 19rem;
-    top: 13rem;
+    left: 2rem;
+    max-width: 11rem;
+    top: 11rem;
+    font-size: 12px !important;
   }
 
   #finance4 {
