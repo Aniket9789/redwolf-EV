@@ -669,6 +669,8 @@ html {
   top: -7rem;
 }
 
+
+
 /* responsive banner2 */
 
 
@@ -681,7 +683,7 @@ html {
     width: 21rem;
     flex-direction: column;
     top: 1rem;
-    top: -5rem !important;
+    top: 3rem !important;
   }
 
   .evbackground {
@@ -751,58 +753,74 @@ html {
     flex-direction: column;
     color: white;
     position: relative;
-    top: -17rem !important;
+    top: -12rem !important;
     right: 9rem;
 
   }
 
   .plus {
-    font-size: 3rem;
+    font-size: 18px;
     position: relative;
-    left: 12rem;
-    top: -5rem;
+    left: 9rem;
+    top: -2rem;
   }
 
   .superSD {
     font-weight: 600;
     right: 1rem;
     bottom: 1rem;
+    font-size: 12px !important;
+    margin-top: 1rem;
   }
 
   .distributor {
     font-weight: 600;
     bottom: 3rem;
-    right: 1rem;
+    right: -.5rem;
     position: relative;
     top: -2rem;
+    font-size: 12px !important;
   }
 
   .retailer {
     font-weight: 600;
     position: relative;
-    bottom: 2rem;
-    right: 5rem;
+    bottom: 4.5rem;
+    font-size: 12px !important;
+    right: 4.7rem;
   }
 
   .footer {
     margin-top: -10rem;
   }
 
+  #value1 {
+    position: relative;
+    top: -7rem;
+  }
+
   #value2 {
     position: relative;
-    top: 2rem;
-    left: 1rem;
+    top: -4rem;
+    left: 0rem;
   }
 
   #value3 {
     position: relative;
-    top: 2rem;
-    left: 1rem;
+    top: -1rem;
+    left: 0rem;
+  }
+
+  #plus1 {
+    font-size: 18px;
+    position: relative;
+    left: 9rem;
+    top: -9rem;
   }
 
   #plus2 {
     position: relative;
-    top: -3rem;
+    top: -6rem;
   }
 
   #plus3 {
@@ -868,7 +886,12 @@ html {
 
   .insidebanner2 {
     width: 100%;
-    height: 65%;
+    /* height: 65%; */
+  }
+
+  .value {
+    font-size: 20px;
+    font-weight: bold;
   }
 
 }
