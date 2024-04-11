@@ -116,8 +116,8 @@ h1 {
   top: 30%;
   left: 9%;
   transform: translateY(-50%);
-  color: #eb6cff;
-  font-size: 4rem;
+  color: #fc3c1e;
+  font-size: 33px;
   text-shadow: 0 2px 10px hsla(var(--hue), var(--s), 10%, .3);
 
   h3 {
@@ -283,7 +283,7 @@ input:not(:checked)+label+.ci {
   height: 0;
   margin-top: -16rem;
   width: 67rem;
-  margin-left: 10rem;
+  margin-left: 15rem;
 }
 
 .value {
@@ -754,7 +754,7 @@ html {
     color: white;
     position: relative;
     top: -12rem !important;
-    right: 9rem;
+    right: 4rem;
 
   }
 
@@ -894,8 +894,50 @@ html {
     font-weight: bold;
   }
 
+  .vid {
+    display: block !important;
+  }
+
+  #video-field {
+    width: 100% !important;
+  }
+
+  .innervid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
+/* video add  */
+.vid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11.5rem;
+}
+
+.videoh3 {
+  font-size: 21px;
+  max-width: 35rem;
+  color: greenyellow;
+}
+
+.vidspan {
+  color: #fc3c1e;
+}
+
+.vidp1 {
+  max-width: 37rem;
+}
+
+.vidp2 {
+  max-width: 36rem;
+}
+
+/* /////////////////////////////s */
 .Unleashing {
   font-size: 40px;
   margin-left: 20rem;
