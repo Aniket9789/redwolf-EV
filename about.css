@@ -41,54 +41,6 @@
     color: white;
 }
 
-.slider-container {
-    position: relative;
-    width: 86rem;
-    margin: 0 auto;
-    overflow: hidden;
-    margin-left: -8px;
-    margin-top: -1rem;
-}
-
-.slider {
-    display: flex;
-    width: 86rem;
-    height: 26rem;
-    margin-left: 0rem;
-    transition: transform 0.1s ease;
-
-}
-
-.slider img {
-    width: 87rem;
-
-    height: auto;
-}
-
-.prev,
-.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 1;
-}
-
-.prev {
-    left: 0;
-}
-
-.next {
-    right: 0;
-}
-
-
-
-
 .about-img {
     margin-left: 2rem;
     margin-top: 3rem;
@@ -156,6 +108,7 @@ p {
     margin-top: 1rem;
     font-size: 1rem;
 }
+
 
 .parent2 {
     margin-left: 3rem;
@@ -337,7 +290,7 @@ h1 {
 }
 
 #para-jou {
-    color: white;
+    color: cornsilk;
     text-align: center;
     margin-top: 1rem;
     width: 61rem;
@@ -348,6 +301,7 @@ h1 {
 #hed1 {
     margin-top: 1rem;
     margin-left: 1rem;
+    color: cornsilk;
 }
 
 #hed2 {
@@ -455,7 +409,7 @@ h1 {
 }
 
 #jou {
-    color: white;
+    color: #f1749b;
     text-decoration: underline;
     text-align: center;
 }
@@ -463,6 +417,7 @@ h1 {
 .head3 {
     text-align: left;
     margin-left: 1rem;
+    color: #fc3c1e;
 }
 
 .head-customer3 {
@@ -605,10 +560,311 @@ h1 {
     margin-left: 0rem;
 }
 
+/* ////////////////////////// vission contect */
+
+.section1 {
+
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/vission-mission-transformed.jpeg);
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+
+}
+
+.section2 {
+
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/vission-mission-transformed.jpeg);
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+
+}
+
 /* responsive */
 
-@media screen and(max-width:500px) {
-    .slider-container {
+@media screen and (max-width:500px) {
+    .section1 {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .journey-detail3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12rem;
+    }
+
+    .journey3 {
+        margin-top: 22rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+
+    #para-jou {
+        max-width: 23rem;
+        margin-left: -15rem;
+        font-size: 12px;
+        margin-top: -17rem;
+    }
+
+    #jou {
+        position: relative;
+        left: -41rem;
+        top: -5rem;
+    }
+
+    .section1 p {
+        max-width: 23rem;
+        margin-left: -5rem;
+        font-size: 12px;
+        font-weight: 500 !important;
+
+    }
+
+    .section2 p {
+        max-width: 23rem;
+        margin-left: -5rem;
+        font-size: 12px;
+        font-weight: 500 !important;
+
+    }
+
+    section p {
+        max-width: 23rem !important;
+        ;
+        margin-left: -5rem;
+        font-size: 12px;
+        font-weight: 500 !important;
+
+    }
+}
+
+
+
+
+/* ////////////// OUT TEAM CONTAINER */
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap");
+
+@media screen and (min-width: 300px) {
+    .mQ {
+        @content;
+    }
+}
+
+body {
+    background: #171717;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul i {
+    color: #fff;
+    font-size: clamp(0.9rem, 0.825rem + 0.3vw, 1.2rem);
+}
+
+ul i:hover {
+    color: #f2709c;
+}
+
+section {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-block: min(20vh, 6rem);
+    text-align: center;
+    width: calc(min(90rem, 90%));
+    margin-inline: auto;
+}
+
+section span,
+section p,
+section h2,
+section h3 {
+    letter-spacing: 0.035rem;
+}
+
+section p {
+    line-height: 1.6;
+    color: #a3a3a3;
+    max-width: 50rem;
+    margin: 0 auto;
+    font-size: clamp(0.9rem, 0.825rem + 0.3vw, 1.2rem);
+}
+
+section .bg-watermark {
+    color: #1f1f1f;
+    font-size: clamp(6rem, 1.3333rem + 14.9333vw, 20rem);
+    font-weight: 800;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%) translateY(-15%);
+    user-select: none;
+    letter-spacing: 0.5rem;
+}
+
+section span {
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.2rem;
+    color: #a3a3a3;
+}
+
+section h2 {
+    font-size: clamp(3.5rem, 3rem + 1.6vw, 5rem);
+    margin-top: -0.625rem;
+    color: #fff;
+}
+
+section .cards {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(12rem, 100%), 1fr));
+    gap: 2rem;
+}
+
+@media screen and (min-width: 51rem) {
+    section .cards {
+        gap: 0;
+        padding-bottom: 2.5rem;
+    }
+}
+
+section .cards .card {
+    position: relative;
+    cursor: pointer;
+}
+
+section .cards .card h3,
+section .cards .card p {
+    text-transform: capitalize;
+}
+
+section .cards .card h3 {
+    font-size: clamp(1rem, 0.9167rem + 0.2667vw, 1.25rem);
+    font-weight: 400;
+    color: #f6f6f6;
+}
+
+section .cards .card p {
+    font-size: clamp(0.85rem, 0.75rem + 0.32vw, 1.15rem);
+    letter-spacing: 0.12rem;
+    font-weight: 300;
+    max-width: 100%;
+}
+
+section .cards .card::before {
+    position: absolute;
+    content: "";
+    width: 5rem;
+    height: 6.25rem;
+    z-index: 0;
+    transition: 0.3s ease-in-out;
+    background: #f2709c;
+    background: -webkit-linear-gradient(to left, #ff9472, #f2709c);
+    background: linear-gradient(to left, #ff9472, #f2709c);
+    top: -0.375rem;
+    left: -0.375rem;
+}
+
+section .cards .card::after {
+    position: absolute;
+    inset: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #232526;
+    background: -webkit-linear-gradient(to bottom,
+            hsl(210deg 2.99% 26.27% / 20%),
+            hsl(0deg 0% 3.14% / 90%));
+    background: linear-gradient(to bottom,
+            hsl(210deg 2.99% 26.27% / 20%),
+            hsl(0deg 0% 3.14% / 90%));
+}
+
+section .cards .card img {
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+}
+
+section .cards .card-content {
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    padding: 1.875rem 1.25rem;
+    text-align: center;
+}
+
+section .cards .card-content ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+    margin-top: 1.25rem;
+}
+
+section .cards .card:hover img {
+    filter: grayscale(0%);
+}
+
+section .cards .card:hover::before {
+    transform: scale(1.03);
+}
+
+section .cards .card:nth-child(1)::before,
+section .cards .card:nth-child(3)::before {
+    top: -0.375rem;
+    left: -0.375rem;
+}
+
+@media screen and (min-width: 31.25rem) {
+    section .cards .card:nth-child(2) {
+        transform: translateY(15%);
+    }
+
+    section .cards .card:nth-child(2)::before {
+        bottom: -0.375rem;
+        left: -0.375rem;
+        top: auto;
     }
 }

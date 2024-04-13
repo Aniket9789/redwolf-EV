@@ -86,7 +86,7 @@ h1 {
   position: relative;
   overflow: hidden;
   background: black;
-
+  border-radius: 1rem;
   box-sizing: border-box;
 }
 
@@ -232,6 +232,7 @@ input:not(:checked)+label+.ci {
   width: 100%;
   margin: auto;
   overflow: hidden;
+  border-radius: 1rem;
 }
 
 .custom-slider {
@@ -453,6 +454,7 @@ html {
   position: relative;
   overflow: hidden;
   width: 100%;
+  border-radius: 1rem;
 }
 
 
@@ -909,6 +911,15 @@ html {
     align-items: center;
     text-align: center;
   }
+
+  .tooltip-flair {
+    left: 13.5rem !important;
+    top: 44rem !important;
+  }
+
+  .main {
+    top: -10rem !important;
+  }
 }
 
 /* video add  */
@@ -1131,7 +1142,7 @@ html {
   #finance3 {
     position: relative;
     left: 1rem;
-    font-size: 19px;
+    font-size: 14px;
     top: 19rem;
 
   }
@@ -1210,4 +1221,84 @@ html {
   100% {
     transform: translateX(-1000px);
   }
+}
+
+
+/* ///////// */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+} */
+
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  /* overflow-y: scroll; */
+  top: 9rem;
+}
+
+.main h3 {
+  color: #cccccc;
+  text-align: center;
+}
+
+.main section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 5rem;
+}
+
+.main .member {
+  margin-right: -10px;
+  height: 5rem;
+  aspect-ratio: 1;
+  background: var(--img-url) center center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}
+
+.main .member:hover {
+  margin-top: -2rem;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.2);
+  border-radius: calc(50% - 8px);
+}
+
+.tooltip-flair {
+  position: absolute;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 32px;
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: translate(-50%, 50%);
+  transform-origin: 0% 50%;
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+  transition: scale 0.5s;
+  left: 46rem;
+  top: 40rem;
+
+}
+
+.tooltip-flair__active {
+  transform: translate(-50%, 50%) scale(1);
+}
+
+.tooltip-flair span {
+  font-weight: 600;
+  color: #333333;
+  text-align: center;
 }
