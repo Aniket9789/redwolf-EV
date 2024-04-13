@@ -632,42 +632,57 @@ h1 {
     }
 
     #para-jou {
-        max-width: 23rem;
-        margin-left: -15rem;
-        font-size: 12px;
+        max-width: 16rem;
+        margin-left: -13rem;
+        font-size: 8px;
         margin-top: -17rem;
+        line-height: 16px;
     }
 
     #jou {
         position: relative;
-        left: -41rem;
+        left: -44rem;
         top: -5rem;
     }
 
     .section1 p {
-        max-width: 23rem;
-        margin-left: -5rem;
-        font-size: 12px;
+        max-width: 17rem !important;
+        margin-left: -4rem !important;
+        font-size: 9px;
         font-weight: 500 !important;
 
     }
 
-    .section2 p {
-        max-width: 23rem;
+    .vission {
+        font-size: 35px;
         margin-left: -5rem;
-        font-size: 12px;
+    }
+
+    .section2 p {
+        max-width: 17rem !important;
+        margin-left: -4rem !important;
+        font-size: 9px;
         font-weight: 500 !important;
 
     }
 
     section p {
-        max-width: 23rem !important;
-        ;
-        margin-left: -5rem;
-        font-size: 12px;
-        font-weight: 500 !important;
+        max-width: 16rem !important;
+        margin-left: 4rem !important;
+        /* font-weight: 500 !important; */
+        line-height: 28px !important;
 
     }
+
+    /* section h2 {
+        margin-left: -7rem;
+
+    }
+
+    section span {
+        margin-left: -7rem;
+
+    } */
 }
 
 
