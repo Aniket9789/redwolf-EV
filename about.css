@@ -757,7 +757,7 @@ section .bg-watermark {
     font-weight: 800;
     position: absolute;
     z-index: -1;
-    left: 75%;
+    left: 50%;
     transform: translateX(-50%) translateY(-15%);
     user-select: none;
     letter-spacing: 0.5rem;

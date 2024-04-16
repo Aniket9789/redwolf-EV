@@ -928,6 +928,8 @@ html {
   justify-content: center;
   align-items: center;
   gap: 11.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .videoh3 {
@@ -1235,7 +1237,7 @@ html {
 
 .main {
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   background: #1a1a1a;
   display: flex;
