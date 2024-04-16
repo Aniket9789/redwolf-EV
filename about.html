@@ -8,9 +8,49 @@
     <title>Redwolfhitech</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="about.css">
+    <style>
+        /* Common styles */
+        .parent-main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .main {
+            flex: 1 1 300px;
+            /* Adjust the width of each item */
+            max-width: 100%;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .about-lock {
+            width: 100%;
+            height: auto;
+        }
+
+        .peraparent {
+            padding: 20px;
+        }
+
+        /* Tablet and mobile styles */
+        @media screen and (max-width: 768px) {
+            .main {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .main {
+                flex-basis: 100%;
+            }
+        }
+    </style>
 </head>
 
-<body>
+<div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary h-auto" style="opacity: 90%;">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html"><img
@@ -67,38 +107,7 @@
 
     <!-- ission vission -->
 
-    <!-- <div class="parent">
-        <img src="images/sliderpic2.jpg" alt="" class="about-img">
-        <h1>Our-Mission</h1>
-        <div class="page">
-            <p><b>At RedWolf Hi-Tech, our mission is to empower individuals and businesses by providing cutting-edge
-                    technological solutions that enhance efficiency, productivity, and convenience. We strive to bridge
-                    the
-                    gap between innovation and accessibility, ensuring that our products and services cater to the
-                    diverse
-                    needs of our clientele. With a customer-centric approach, we aim to create value-driven solutions
-                    that
-                    positively impact the lives of people around the globe.</b></p>
-            <div class="parent2">
-                <img src="images/vission.jpg" alt="" class="about-img2">
-                <h2>Our-Vission</h2>
-                <div class="page2">
-                    <p><b>At RedWolf Hi-Tech, our mission is to empower individuals and businesses by providing
-                            cutting-edge
-                            technological solutions that enhance efficiency, productivity, and convenience. We strive to
-                            bridge
-                            the
-                            gap between innovation and accessibility, ensuring that our products and services cater to
-                            the
-                            diverse
-                            needs of our clientele. With a customer-centric approach, we aim to create value-driven
-                            solutions
-                            that
-                            positively impact the lives of people around the globe.</b></p>
-                </div>
-            </div>
-        </div>
-    </div> -->
+
     <section class="section1">
         <h2 class="vission" style="color: #172737;">Our-Vission</h2>
         <p class="vissionpera" style="color: #3a4ca9; font-weight: 500;">Our vision at RedWolf Hi-Tech is to be at the
@@ -131,8 +140,8 @@
     <section>
         <span>meet our</span>
         <h2>Team</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, praesentium veritatis voluptatibus ut
-            consequuntur quas consequatur omnis id rem obcaecati.</p>
+        <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, praesentium veritatis voluptatibus ut
+            consequuntur quas consequatur omnis id rem obcaecati.</p> -->
         <span class="bg-watermark">team</span>
         <div class="cards">
             <div class="card">
@@ -158,7 +167,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="images/pankaj2.jpg" alt="Travis Lynch">
+                <img src="images/pankaj2.jpg" alt="Travis Lynch" class="banner1">
                 <div class="card-content">
                     <h3>Pankaj Chaturvadi</h3>
                     <p>Co-Founder & Director</p>
@@ -171,120 +180,224 @@
         </div>
     </section>
     <!-- ///////////////////////// -->
-    <!---->
-    <div class="journey-detail3">
 
-        <div class="container13" id="cont1">
-            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrUCX7-8DOXuYXDUT7O4Ap_L5wQtwjc8WWbWHmfB2xxzUZ-9dM"
-                alt="Avatar" class="image3">
-            <div class="overlay3">
-                <!-- <div class="text">FINANCE LOCKER</div>-->
-                <div class="img-over1"><img
-                        src="https://media.istockphoto.com/id/962094400/photo/data-protection-privacy-concept-gdpr-eu-cyber-security-network-business-man-protecting-data.webp?b=1&s=170667a&w=0&k=20&c=uEj-4bDDNvAhA2cwaF9ax-gV8d_JwIRowwd29HdULWE="
-                        alt=""></div>
-            </div>
-        </div>
-        <div class="content13" id="box1">
-            <h1 class="head3">FINANCE LOCKER </h1>
-            <p id="hed1">Finance Locker, our pioneering product launched in 2018, redefined the way retailers manage
-                their finances. With models such as T-Cops Zt Pro, T-Cops Zt Plus, and T-Cops I Mac, Finance Locker
-                empowered retailers to efficiently oversee their financed customers and streamline the payment
-                process. In the event of delayed EMI payments, T-Cops I Mac provided a seamless solution, ensuring
-                smooth transactions
-                and enhanced customer satisfaction.</p>
-        </div>
-        <div class="container13" id="cont2">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRui1XZxrR7bIZ-W0cYlvvTH3GZjnJnEaGEcp2JPFVTcdhDQL_QfGCS9U-k4-jfIFDR8cM&s"
-                alt="Avatar" class="image3">
-            <div class="overlay3">
-                <!-- <div class="text1">REDWOLF EV</div>-->
-                <div class="img-over1"><img
-                        src="https://media.istockphoto.com/id/962094400/photo/data-protection-privacy-concept-gdpr-eu-cyber-security-network-business-man-protecting-data.webp?b=1&s=170667a&w=0&k=20&c=uEj-4bDDNvAhA2cwaF9ax-gV8d_JwIRowwd29HdULWE="
-                        alt=""></div>
-            </div>
-        </div>
-        <div class="content13" id="box2">
-            <h1 class="head3" id="ev">REDWOLF EV</h1>
-            <p id="hed2">In 2024, RedWolf Hi-Tech expanded its portfolio with the launch of RedWolf EV, an electric
-                vehicle aimed at revolutionizing urban mobility. With a focus on sustainability and innovation,
-                RedWolf EV offers eco-friendly transportation solutions that are both efficient and reliable.
-                Designed for urban commuters, RedWolf EV scooters combine cutting-edge technology with sleek design,
-                offering a smooth and enjoyable riding experience. With RedWolf EV, we are committed to reducing
-                carbon emissions and building
-                a greener future for generations to come.</p>
-        </div>
-        <div class="container13" id="cont3">
-            <img src="images/p3.webp" alt="Avatar" class="image3">
-            <div class="overlay3">
-                <div class="img-over1"><img
-                        src="https://media.istockphoto.com/id/962094400/photo/data-protection-privacy-concept-gdpr-eu-cyber-security-network-business-man-protecting-data.webp?b=1&s=170667a&w=0&k=20&c=uEj-4bDDNvAhA2cwaF9ax-gV8d_JwIRowwd29HdULWE="
-                        alt=""></div>
-            </div>
-        </div>
-        <div class="content13" id="box3">
-            <h1 class="head3">IT SOLUTIONS </h1>
-            <p id="hed3">Leveraging our expertise in technology, RedWolf Hi-Tech offers comprehensive IT solutions
-                to businesses of all sizes. From website development and app development to graphic design and
-                digital marketing, our team of skilled professionals delivers customized solutions that drive
-                engagement, increase visibility, and drive results. With a focus on innovation and creativity, we
-                help our clients harness the power of technology to achieve their goals
-                and stay ahead in today's digital landscape.</p>
-        </div>
-
-        <div class="container13" id="cont4">
-            <img src="images/p4.webp" alt="Avatar" class="image3">
-            <div class="overlay3">
-                <div class="img-over1"><img
-                        src="https://media.istockphoto.com/id/962094400/photo/data-protection-privacy-concept-gdpr-eu-cyber-security-network-business-man-protecting-data.webp?b=1&s=170667a&w=0&k=20&c=uEj-4bDDNvAhA2cwaF9ax-gV8d_JwIRowwd29HdULWE="
-                        alt=""></div>
+    <div class="parent-main">
+        <div class="main">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTIUaJzDIqEAw2H3QEtKpv7k7rU7ih3V2mKLWKp6hhODAPgS02B"
+                alt="" class="about-lock">
+            <div class="peraparent">
+                <div class="para1">
+                    <h1>Finance locker</h1>
+                </div>
+                <div class="text1">
+                    <p class="subpera"> Finance Locker, our pioneering product launched in 2019, redefined the way
+                        retailers
+                        manage their finances. With models such as T-Cops Zt Pro, T-Cops Zt Plus, and T-Cops I Mac,
+                        Finance Locker empowered retailers to efficiently oversee their financed customers and
+                        streamline the
+                        payment process. In the event of delayed EMI payments, T-Cops I Mac provided a seamless
+                        solution,
+                        ensuring smooth transactions and enhanced customer satisfaction.</p>
+                </div>
             </div>
         </div>
 
-        <div class="content13" id="box4">
-            <h1 class="head3" id="skribbit">SKRIBBIT </h1>
-            <p id="hed4">In 2024, RedWolf Hi-Tech unveiled Skribbit, an innovative e-commerce platform catering
-                specifically to the needs of children. With a curated selection of stationery and educational
-                supplies, Skribbit offers a fun and engaging shopping experience for young learners and their
-                parents. From colorful notebooks to interactive learning kits, Skribbit aims to inspire creativity
-                and learning while simplifying the process of
-                procuring essential school supplies.</p>
+        <div class="main">
+            <img src="images/ev-about.png" alt="" class="about-lock">
+            <div class="peraparent">
+                <div class="para1">
+                    <h1>RedWolf <span style="color: green;">EV:</span></h1>
+                </div>
+                <div class="text1">
+                    <p class="subpera">In 2024, RedWolf Hi-Tech expanded its portfolio with the launch of RedWolf EV, an
+                        electric vehicle aimed at revolutionizing urban mobility. With a focus on sustainability and
+                        innovation, RedWolf EV offers eco-friendly transportation solutions that are both efficient and
+                        reliable. Designed for urban commuters, RedWolf EV scooters combine cutting-edge technology with
+                        sleek design, offering a smooth and enjoyable riding experience. With RedWolf EV, we are
+                        committed to reducing carbon emissions and building a greener future for generations to come.
+                    </p>
+                </div>
+            </div>
         </div>
 
+
+
+        <div class="main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw-Jo7llW9O_aPT-ajmxsV17D_5f0P-J4dWQ&s"
+                alt="" class="about-lock">
+            <div class="peraparent">
+                <div class="para1">
+                    <h1>IT Solutions:</h1>
+                </div>
+                <div class="text1">
+                    <p class="subpera">Leveraging our expertise in technology, RedWolf Hi-Tech offers comprehensive IT
+                        solutions to businesses of all sizes. From website development and app development to graphic
+                        design
+                        and digital marketing, our team of skilled professionals delivers customized solutions that
+                        drive
+                        engagement, increase visibility, and drive results. With a focus on innovation and creativity,
+                        we
+                        help our clients harness the power of technology to achieve their goals and stay ahead in
+                        today's
+                        digital landscape.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX8bwJVrm0YyO7x0_gDE1ASkUDNpWw0Zgdjw&s"
+                alt="" class="about-lock">
+            <div class="peraparent">
+                <div class="para1">
+                    <h1>Skribbit:</h1>
+                </div>
+                <div class="text1">
+                    <p class="subpera">In 2024, RedWolf Hi-Tech introduced Skribbit, a pioneering e-commerce platform
+                        tailored to cater to business-to-business retailers and corporate stationery needs. With an
+                        extensive range of products including colorful notebooks, pens, and all essential stationery
+                        items,
+                        Skribbit aims to streamline the procurement process for businesses. By providing a one-stop
+                        solution
+                        for stationery supplies, Skribbit endeavors to inspire creativity and efficiency in the
+                        workplace
+                        while simplifying the purchasing experience for corporate clients.</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <!---->
+
+
+    <!-- ////////////////////// -->
+    
     <div class="customer3">
         <div class="head-customer3">
             <h1 id="cca">CUSTOMER-CENTRIC APPROACH</h1>
         </div>
-        <div class="img-customer3"><img id="img-cust" src="images/p5.jpg" alt="">
-            <div class="para-customer3">Central to our philosophy at RedWolf Hi-Tech is a strong commitment to
-                customer satisfaction. We believe in building lasting relationships with our clients based on trust,
-                transparency, and integrity. By listening to their feedback and understanding their needs, we are
-                able to tailor our products and services to deliver maximum value. Our dedicated support team is
-                always on hand to provide assistance and ensure that our customers receive the highest level of
-                service at every step of their journey with us.
-
+        <div class="img-customer3">
+            <img id="img-cust"
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSHJbdv9djPlEYc0yNqsCm2_3c6F6eKD0UCd9ij4iTCAQXRyhXV"
+                alt="">
+            <div class="para-customer3">
+                Central to our philosophy at RedWolf Hi-Tech is a strong commitment to customer satisfaction. We believe
+                in building lasting relationships with our clients based on trust, transparency, and integrity. By
+                listening to their feedback and understanding their needs, we are able to tailor our products and
+                services to deliver maximum value. Our dedicated support team is always on hand to provide assistance
+                and ensure that our customers receive the highest level of service at every step of their journey with
+                us.
             </div>
         </div>
     </div>
 
     <!---->
-    <div class="conclusion3">
-        <div class="head-conclusion3">
-            <h1 id="conclu">CONCLUSION</h1>
+    <div class="customer3">
+        <div class="head-customer3">
+            <h1 id="cca">CONCLUSION</h1>
         </div>
-        <div class="img-conclusion3"><img class="img1-con
-          " src="images/p7.jpg" alt=""></div>
-        <div class="para-conclusion3">
-            <p id="para-conclu">As we reflect on our journey from humble beginnings to becoming a leader in the tech
-                industry, we remain committed to our mission of driving innovation and empowering individuals and
-                businesses. With a relentless pursuit of excellence and a passion for creating impactful solutions,
-                RedWolf Hi-Tech is poised to shape the future of technology and inspire positive change on a global
-                scale. Together, we will continue to push the boundaries of possibility and redefine what is
-                achievable in the world of technology. Join us as we embark on this exciting journey towards a
-                brighter, more connected future.</p>
+        <div class="img-customer3">
+            <img class="img1-con"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUUdgGlEIsu2dfP8V0olysPp1p9-nMcDKfZw&s"
+                alt="">
+        </div>
+        <div class="para-customer3">
+            As we reflect on our journey from humble beginnings to becoming a leader in the tech
+            industry, we remain committed to our mission of driving innovation and empowering individuals and
+            businesses. With a relentless pursuit of excellence and a passion for creating impactful solutions,
+            RedWolf Hi-Tech is poised to shape the future of technology and inspire positive change on a global
+            scale. Together, we will continue to push the boundaries of possibility and redefine what is
+            achievable in the world of technology. Join us as we embark on this exciting journey towards a
+            brighter, more connected future.
         </div>
     </div>
+
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer__addr">
+            <h2>Contact</h2>
+            <address>
+                Red Wolf Hi-tech Pvt.Ltd.
+                214,Tower-4 Assotech Business Cresterra Sector 135, Noida - 201301.<br>
+                <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+            </address>
+        </div>
+
+        <ul class="footer__nav">
+            <li class="nav__item">
+                <h2 class="nav__title">Media</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <a href="https://twitter.com/redwolfhitech">X</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/redwolfhitech/">Instagram</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/RedWolfHiTech24">Facebook</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">Pages</h2>
+
+                <ul class="nav__ul nav__ul--extra">
+                    <li>
+                        <a href="/index.html">HOME</a>
+                    </li>
+
+                    <li>
+                        <a href="/about.html">ABOUT</a>
+                    </li>
+
+                    <li>
+                        <a href="/services.html">SERVICES</a>
+                    </li>
+
+                    <li>
+                        <a href="/blogs.html">BLOG</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">CONTACT-US</a>
+                    </li>
+
+                    <li>
+                        <a href="https://portal.tcopsztpro.in/">LOGIN</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__item">
+                <h2 class="nav__title">Legal</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <a href="/pp.html">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="/tc.html">Terms of Use</a>
+                    </li>
+
+                    <!-- <li>
+                <a href="#">Sitemap</a>
+              </li> -->
+                </ul>
+            </li>
+        </ul>
+
+        <div class="legal">
+            <p>&copy; 2024 RedWolfHi-Tech. All rights reserved.</p>
+
+            <div class="legal__links">
+                <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+            </div>
+        </div>
+    </footer>
     <script>
         let slideIndex = 0;
 
@@ -324,6 +437,6 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-</body>
+    </body>
 
 </html>
