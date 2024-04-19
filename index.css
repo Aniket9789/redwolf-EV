@@ -645,11 +645,11 @@ html {
 }
 
 .evbanner2 {
-  width: 22%;
-  height: 18rem;
+  width: 26%;
+  height: 23rem;
   left: 17rem;
   position: relative;
-  top: -3rem;
+  top: -2rem;
   border-radius: 1rem;
 
 }
@@ -667,8 +667,8 @@ html {
   position: relative;
   color: white;
   font-size: xxx-large;
-  right: 60rem;
-  top: -7rem;
+  right: 14rem;
+  top: -25rem;
 }
 
 
