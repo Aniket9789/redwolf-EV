@@ -920,6 +920,21 @@ html {
   .main {
     top: -10rem !important;
   }
+
+  .vidp2 {
+    max-width: 22rem !important;
+  }
+
+  .vidp1 {
+    max-width: 22rem !important;
+  }
+
+  .videoh3 {
+    font-size: 21px;
+    max-width: 22rem !important;
+    color: greenyellow;
+    margin-top: 2rem;
+  }
 }
 
 /* video add  */
