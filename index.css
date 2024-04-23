@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -742,7 +747,7 @@ html {
 
   .reviews {
     position: relative;
-    top: 2rem;
+    top: 6rem;
   }
 
   .insidebanner2 {
@@ -834,7 +839,7 @@ html {
     margin-left: 27rem !important;
     font-size: 1rem !important;
     position: relative;
-    top: 2rem;
+    /* top: -1rem; */
     width: 10rem;
     left: -8rem;
   }
@@ -861,7 +866,7 @@ html {
   #vehicel {
     font-size: xx-large;
     position: relative;
-    top: 1rem;
+    /* top: 1rem; */
     left: 2rem;
   }
 
