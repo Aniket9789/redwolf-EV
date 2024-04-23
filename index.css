@@ -1,8 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -55,16 +57,10 @@ input[type="radio"] {
   display: none;
 }
 
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-
 
 /* DEFAULTS */
 /* ========================================================================== */
-
-
 h1 {
   color: hsla(32 50% 50% / .8);
 
@@ -74,7 +70,6 @@ h1 {
   margin: 0;
 
 }
-
 
 /* C */
 /* ========================================================================== */
@@ -522,7 +517,6 @@ html {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
-  /* Set text color as needed */
 }
 
 
@@ -545,7 +539,6 @@ html {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
-  /* Set text color as needed */
 }
 
 .we_txt {
@@ -672,8 +665,6 @@ html {
   position: relative;
   color: white;
   font-size: xxx-large;
-  /* right: 14rem;
-  top: -25rem; */
 }
 
 
@@ -839,7 +830,6 @@ html {
     margin-left: 27rem !important;
     font-size: 1rem !important;
     position: relative;
-    /* top: -1rem; */
     width: 10rem;
     left: -8rem;
   }
@@ -860,13 +850,11 @@ html {
 
   .banner2 {
     position: relative;
-    /* top: -11rem; */
   }
 
   #vehicel {
     font-size: xx-large;
     position: relative;
-    /* top: 1rem; */
     left: 2rem;
   }
 
@@ -893,7 +881,6 @@ html {
 
   .insidebanner2 {
     width: 100%;
-    /* height: 65%; */
     margin-top: 3rem;
   }
 
@@ -978,7 +965,6 @@ html {
 }
 
 /* responsive navigation bar */
-
 
 .wolflogo {
   width: 7rem;
@@ -1187,13 +1173,6 @@ html {
 
   }
 
-  /* #financepara4 {
-    text-align: start;
-    position: relative;
-    left: 1rem;
-    top: 12srem;
-  } */
-
   .slider {
     display: flex;
     width: 100%;
@@ -1249,13 +1228,6 @@ html {
 
 /* ///////// */
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: system-ui;
-} */
-
 .main {
   position: relative;
   /* height: 100vh; */
@@ -1266,7 +1238,6 @@ html {
   justify-content: center;
   flex-direction: column;
   gap: 16px;
-  /* overflow-y: scroll; */
   top: 9rem;
 }
 
