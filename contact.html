@@ -1,302 +1,357 @@
-<head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/boxicons/2.0.7/css/boxicons.min.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="shortcut icon" href="images/android-chrome-192x192.png" type="image/x-icon">
+<!DOCTYPE html>
+<html lang="en">
 
-  <link rel="stylesheet" href="contact.css">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/boxicons/2.0.7/css/boxicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/android-chrome-192x192.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="contact.css">
+    <title>Redwolfhitech</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Contact Section */
+        .contact_us {
+            padding: 50px 0;
+            background-color: #f9f9f9;
+        }
+
+        .contact_inner {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact_field {
+            margin-bottom: 30px;
+        }
+
+        .contact_field h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .contact_form_submit {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact_form_submit:hover {
+            background-color: #0056b3;
+        }
+
+        /* Map Section */
+        .map_sec {
+            padding: 50px 0;
+        }
+
+        .map_inner {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .map_inner h4 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .map_inner p {
+            margin-bottom: 20px;
+        }
+
+        .map_bind {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%;
+        }
+
+        .map_bind iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .col-md-10 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .col-md-2 {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-top: 20px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary h-auto" style="opacity: 90%;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/index.html"><img
-          src="https://redwolfhitech.com/assets/img/Red_Wolf_Hi-Tech_Pvt.Ltd_Header_logo.png" alt=""
-          class="wolflogo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-        style="background-color: white;">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" href="/index.html" id="links">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/About1.html" id="links">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/blogs.html" id="links">BLOG</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/services.html" id="links">SERVICES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/contact.html" id="links">CONTACT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="https://portal.tcopsztpro.in/" id="links">LOGIN</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary h-auto" style="opacity: 90%;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><img
+                    src="https://redwolfhitech.com/assets/img/Red_Wolf_Hi-Tech_Pvt.Ltd_Header_logo.png" alt=""
+                    class="wolflogo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="background-color: white;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/index.html" id="links">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/About1.html" id="links">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/blogs.html" id="links">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/services.html" id="links">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contact.html" id="links">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://portal.tcopsztpro.in/" id="links">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <!-- <div class="contact">
-    <section>
 
-      <div class="section-header">
+
+    <!-- main <section></section> -->
+
+    <section class="contact_us">
         <div class="container">
-          <h2>Contact Us</h2>
-          <p>Got questions or inquiries? Reach out to Red Wolf Hi-Tech – we're here to assist you. Drop us a line and
-            let's connect</p>
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="contact_inner">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="contact_form_inner">
+                                    <div class="contact_field">
+                                        <h3>Contact Us</h3>
+                                        <p>Feel Free to contact us any time. We will get back to you as soon as we can!.
+                                        </p>
+                                        <input type="text" class="form-control form-group" placeholder="Name" />
+                                        <input type="text" class="form-control form-group" placeholder="Email" />
+                                        <textarea class="form-control form-group" placeholder="Message"></textarea>
+                                        <button class="contact_form_submit">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact_info_sec">
+                            <h4>Contact Info</h4>
+                            <div class="d-flex info_single align-items-center">
+                                <i class="fas fa-headset"></i>
+                                <span>+91 9988908111</span>
+                            </div>
+                            <div class="d-flex info_single align-items-center">
+                                <i class="fas fa-headset"></i>
+                                <span>+91 9888284777</span>
+                            </div>
+                            <div class="d-flex info_single align-items-center">
+                                <i class="fas fa-envelope-open-text"></i>
+                                <span>info@redwolfhitech.com</span>
+                            </div>
+                            <div class="d-flex info_single align-items-center">
+                                <i class="fas fa-map-marked-alt"></i>
+                                <span>Red Wolf Hi-tech Pvt.Ltd.
+                                    214,Tower-4 Assotech Business Cresterra Sector 135, Noida - 201305.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-
-          <div class="contact-info">
-            <div class="contact-info-item">
-              <div class="contact-info-icon">
-                <i class='bx bxs-building-house'></i>
-              </div>
-
-              <div class="contact-info-content">
-                <h4>Address</h4>
-                <p>Red Wolf Hi-tech Pvt.Ltd.</p>
-                <p>214,Tower-4 Assotech Business Cresterra Sector 135, Noida - 201305.</p>
-              </div>
-            </div>
-
-            <div class="contact-info-item">
-              <div class="contact-info-icon">
-                <i class="fas fa-phone"></i>
-              </div>
-
-              <div class="contact-info-content">
-                <h4>Phone</h4>
-                <p>+91 9988908111</p>
-                <p>+91 9888284777</p>
-              </div>
-            </div>
-
-            <div class="contact-info-item">
-              <div class="contact-info-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-
-              <div class="contact-info-content">
-                <h4>Email</h4>
-                <p>info@redwolfhitech.com</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="contact-form">
-            <form action="" id="contact-form">
-              <h2>Send Message</h2>
-              <div class="input-box">
-                <select class="selector" required="true" name="section">
-                  <option value="">Select Section of Query</option>
-                  <option value="section1">Finanace Locker</option>
-                  <option value="section2">Redwolf EV</option>
-                  <option value="section3">IT Solutions</option>
-                </select>
-              </div>
-
-              <div class="input-box">
-                <input type="text" required="true" name="fullname">
-                <span>Full Name</span>
-              </div>
-
-              <div class="input-box">
-                <input type="email" required="true" name="email">
-                <span>Email</span>
-              </div>
-
-              <div class="input-box">
-                <textarea required="true" name="message"></textarea>
-                <span>Type your Message...</span>
-              </div>
-
-              <div class="input-box">
-                <input type="submit" value="Send" name="">
-              </div>
-            </form>
-          </div>
-
-        </div>
-      </div>
     </section>
-  </div> -->
+
+    <section class="map_sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="map_inner">
+                        <div class="map_bind">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.456613168829!2d77.40051427561424!3d28.495906790271697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce85dbf2fffff%3A0x1f70e96c5228abe8!2sRed%20Wolf%20Hi-Tech!5e0!3m2!1sen!2sin!4v1713956251692!5m2!1sen!2sin"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-  <!-- main section -->
 
 
-  <div class="ffbox">
-    <div class="ffbox1">
-      <h1 class="gfg">RedWolfHi-Tech</h1>
-      <h2>Contact Us</h2>
-      <form>
-        <label for="fullName">
-          <i class="fa fa-solid fa-user" style="margin: 2px;">
-          </i> Full Name:
-        </label>
-        <input type="text" id="fullName" name="fullName" required>
-
-        <label for="email">
-          <i class="fa fa-solid fa-envelope" style="margin: 2px;">
-          </i>
-          Email Address:
-
-        </label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="mobile">
-          <i class=" fa fa-solid fa-phone" style="margin: 2px;">
-          </i>
-          Contact No:
-        </label>
-        <input type="tel" id="mobile" name="mobile" required>
-
-        <label for="msg">
-          <i class=" fa fa-solid fa-comment" style="margin: 2px;">
-          </i>
-          Write Message:
-        </label>
-        <textarea id="msg" name="msg" rows="5" required>
-            </textarea>
-
-        <button type="submit"><a href="info@redwolfhitech.com "></a>
-          Submit
-        </button>
-      </form>
-    </div>
-    <div class="map-div">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.4467592395586!2d77.39937047510296!3d28.49620339025916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce97cabbb91cf%3A0x414ecf5b1f65e37d!2sABC%20tower%20gate%20no%205!5e0!3m2!1sen!2sin!4v1713772682716!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-  <!-- ///////////////////////////// -->
 
 
-  <!-- ======= Contact Section ======= -->
-  <!-- <section id="contact" class="contact">
-    <div style="position: relative;
-    top: 14rem;">
-      <iframe style="border:0; width: 100%; height: 350px;"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-        frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="container">
 
-    </div>
-  </section> -->
-  <!-- End Contact Section -->
+    <!-- ///////////////// -->
+    <!-- footer -->
 
+    <footer class="footer">
+        <div class="footer__addr">
+            <address>
+                Red Wolf Hi-tech Pvt.Ltd.
+                214,Tower-4 Assotech Business Cresterra Sector 135, Noida - 201305.<br>
+                <a class="footer__btn" href="mailto:info@redwolfhitech.com">Email Us</a>
+                <a class="footer__btn" href="mailto:info@redwolfhitech.com">info@redwolfhitech.com</a>
+                <h2>Contact</h2>
+                <a class="footer__btn" href="call:+91 9988908111">+91 9988908111</a>
+                <a class="footer__btn" href="call:+91 9888284777">+91 9888284777</a>
+            </address>
+        </div>
 
-  <footer class="footer">
-    <div class="footer__addr">
-      <address>
-        Red Wolf Hi-tech Pvt.Ltd.
-        214,Tower-4 Assotech Business Cresterra Sector 135, Noida - 201305.<br>
-        <a class="footer__btn" href="">Email Us</a>
-        <a class="footer__btn" href="mailto:info@redwolfhitech.com">info@redwolfhitech.com</a>
-        <h2>Contact</h2>
-        <a class="footer__btn" href="call:+91 9988908111">+91 9988908111</a>
-        <a class="footer__btn" href="call:+91 9888284777">+91 9888284777</a>
-      </address>
-    </div>
+        <ul class="footer__nav">
+            <li class="nav__item">
+                <h2 class="nav__title">Media</h2>
 
-    <ul class="footer__nav">
-      <li class="nav__item">
-        <h2 class="nav__title">Media</h2>
+                <ul class="nav__ul">
+                    <li>
+                        <a href="https://twitter.com/redwolfhitech">X</a>
+                    </li>
 
-        <ul class="nav__ul">
-          <li>
-            <a href="https://twitter.com/redwolfhitech">X</a>
-          </li>
+                    <li>
+                        <a href="https://www.instagram.com/redwolfhitech/">Instagram</a>
+                    </li>
 
-          <li>
-            <a href="https://www.instagram.com/redwolfhitech/">Instagram</a>
-          </li>
+                    <li>
+                        <a href="https://www.facebook.com/RedWolfHiTech24">Facebook</a>
+                    </li>
+                </ul>
+            </li>
 
-          <li>
-            <a href="https://www.facebook.com/RedWolfHiTech24">Facebook</a>
-          </li>
+            <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">Pages</h2>
+
+                <ul class="nav__ul nav__ul--extra">
+                    <li>
+                        <a href="/index.html">HOME</a>
+                    </li>
+
+                    <li>
+                        <a href="/About1.html">ABOUT</a>
+                    </li>
+
+                    <li>
+                        <a href="/services.html">SERVICES</a>
+                    </li>
+
+                    <li>
+                        <a href="/blogs.html">BLOG</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">CONTACT-US</a>
+                    </li>
+
+                    <li>
+                        <a href="https://portal.tcopsztpro.in/">LOGIN</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__item">
+                <h2 class="nav__title">Legal</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <a href="/pp.html">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="/tc.html">Terms of Use</a>
+                    </li>
+
+                    <!-- <li>
+              <a href="#">Sitemap</a>
+            </li> -->
+                </ul>
+            </li>
         </ul>
-      </li>
 
-      <li class="nav__item nav__item--extra">
-        <h2 class="nav__title">Pages</h2>
+        <div class="legal">
+            <p>&copy; 2024 RedWolfHi-Tech. All rights reserved.</p>
 
-        <ul class="nav__ul nav__ul--extra">
-          <li>
-            <a href="/index.html">HOME</a>
-          </li>
-
-          <li>
-            <a href="/About1.html">ABOUT</a>
-          </li>
-
-          <li>
-            <a href="/services.html">SERVICES</a>
-          </li>
-
-          <li>
-            <a href="/blogs.html">BLOG</a>
-          </li>
-
-          <li>
-            <a href="contact.html">CONTACT-US</a>
-          </li>
-
-          <li>
-            <a href="https://portal.tcopsztpro.in/">LOGIN</a>
-          </li>
-        </ul>
-      </li>
-
-      <li class="nav__item">
-        <h2 class="nav__title">Legal</h2>
-
-        <ul class="nav__ul">
-          <li>
-            <a href="/pp.html">Privacy Policy</a>
-          </li>
-
-          <li>
-            <a href="/tc.html">Terms of Use</a>
-          </li>
-
-          <!-- <li>
-            <a href="#">Sitemap</a>
-          </li> -->
-        </ul>
-      </li>
-    </ul>
-
-    <div class="legal">
-      <p>&copy; 2024 RedWolfHi-Tech. All rights reserved.</p>
-
-      <div class="legal__links">
-        <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
-      </div>
-    </div>
-  </footer>
-
-
+            <div class="legal__links">
+                <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
-<script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector(".contact_field");
+        const nameInput = form.querySelector("input[type='text'][placeholder='Name']");
+        const emailInput = form.querySelector("input[type='text'][placeholder='Email']");
+        const messageInput = form.querySelector("textarea[placeholder='Message']");
+        const sendButton = form.querySelector(".contact_form_submit");
+
+        sendButton.addEventListener("click", function (event) {
+            event.preventDefault();
+
+            const name = nameInput.value.trim();
+            const email = emailInput.value.trim();
+            const message = messageInput.value.trim();
+
+            if (name === '' || email === '' || message === '') {
+                alert("Please fill out all fields.");
+                return;
+            }
+
+            const subject = `Message from ${name}`;
+            const body = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+
+            const mailtoLink = `mailto:info@redwolfhitech.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            window.location.href = mailtoLink;
+        });
+    });
+
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 </html>
