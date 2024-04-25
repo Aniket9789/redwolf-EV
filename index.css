@@ -1005,7 +1005,7 @@ html {
 
 
 .reviews {
-  margin-top: 0rem;
+  margin-top: 9rem;
   overflow: hidden;
 }
 
@@ -1183,7 +1183,7 @@ html {
 .row-first,
 .row-third {
   animation: move-first 20s linear infinite;
-  margin-bottom: 2rem;
+  margin-bottom: 10rem;
 }
 
 .row-second {
