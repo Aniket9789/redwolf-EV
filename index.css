@@ -776,7 +776,7 @@ html {
     bottom: 3rem;
     right: -.5rem;
     position: relative;
-    top: -2rem;
+    top: -3rem;
     font-size: 12px !important;
   }
 
@@ -812,13 +812,14 @@ html {
   #plus1 {
     font-size: 18px;
     position: relative;
-    left: 9rem;
+    left: 8rem;
     top: -9rem;
   }
 
   #plus2 {
     position: relative;
     top: -6rem;
+    left: 8.4rem;
   }
 
   #plus3 {
