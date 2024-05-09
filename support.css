@@ -1,0 +1,103 @@
+/* navigation bar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    background-color: #00000024;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    height: 40rem;
+}
+
+.bg-body-tertiary {
+    background-color: black !important;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    max-height: 80px;
+    width: 6rem;
+    margin-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 25px;
+    gap: 34px;
+    margin-top: 22px;
+    height: 41px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+/* /////////////// */
+
+
+/* responsive navigation bar */
+
+.wolflogo {
+    width: 7rem;
+}
+
+#wolful {
+    position: relative;
+    left: 67rem;
+
+}
+
+#links {
+    color: white;
+    font-size: 20px;
+}
+
+.pro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.plus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.imac {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}

@@ -57,6 +57,7 @@ input[type="radio"] {
   display: none;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 /* DEFAULTS */
@@ -929,6 +930,21 @@ html {
     color: greenyellow;
     margin-top: 2rem;
   }
+
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .wolflogo2 {
+    margin-left: 8rem !important;
+  }
+}
+
+.wolflogo2 {
+  width: 7rem;
+  margin-left: 11rem;
 }
 
 /* video add  */
