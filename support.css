@@ -86,6 +86,21 @@ input[type="radio"] {
 
 }
 
+@media screen and (max-width:900px) {
+
+    .pro {
+        width: 100%;
+    }
+
+    .plus {
+        width: 100%;
+    }
+
+    .imac {
+        width: 100%;
+    }
+}
+
 .plus {
     display: flex;
     justify-content: center;
