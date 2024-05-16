@@ -562,10 +562,10 @@
       radio.addEventListener('click', () => handleCustomRadioButtonClick(index));
     });
 
-    setInterval(handleCustomAutomaticChange, 5000);
+    setInterval(handleCustomAutomaticChange, 3000);
 
     const counters = document.querySelectorAll('.value');
-    const speed = 200;
+    const speed = 900;
 
     counters.forEach(counter => {
       const animate = () => {
